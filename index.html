@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Fonts Pre Connect -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+        <!-- CSS Files Links -->
+        <link rel="stylesheet" href="./styles.css">
+        <!-- Title -->
+        <title>Stone paper scissors</title>
+    </head>
+    <body>
+        <h1>Stone Paper scissor</h1>
+        <div class="choices">
+            <div class="choice">
+                <img src="rock.png" alt="rock" id="rock">
+            </div>
+            <div class="choice">
+                <img src="paper.png" alt="paper" id="paper">
+            </div>
+            <div class="choice">
+                <img src="scissors.png" alt="scissor" id="scissor">
+            </div>
+        </div>
+        <div class="score-board">
+            <div class="score">
+                <p id="userScore">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="compScore">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+        <div class="msg-container">
+            <p id="msg">Play your move</p>
+        </div>
+        <noscript>Your browser don't support JavaScript!</noscript>
+        <script src="./app.js"></script>
+    </body>
+</html>
